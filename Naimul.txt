@@ -1,0 +1,29 @@
+git --version
+git config --global user.name "naimulhasan"
+git config --global user.email naimulhasanhelal@gmail.com
+git config --list
+git init
+git status
+git add file.txt
+git add .
+git commit -m "Text"
+git log
+git log --oneline
+git checkout 234f23r4
+clear
+git checkout master
+git diff
+git diff 234jn234 23j5423j
+git diff --staged
+git rm Helal.txt
+git reset HEAD Helal.txt
+git commit -m "text" 
+
+git remote add origin https://github.com/naimulhasan/t14.git
+
+git push -u origin master
+
+git clone https://github.com/naimulhasan/t14.git newone
+
+git fetch
+git pull
